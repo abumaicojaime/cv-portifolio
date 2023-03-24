@@ -1,0 +1,65 @@
+body{
+display: block;
+margin: 0px 20px;
+
+}
+header{
+width: 500px;
+height: 50px;  
+
+}
+nav{
+position: fixed;
+display: inline-flex;
+justify-content: space-between;
+}
+a{
+list-style-type: none; 
+text-decoration: none;
+  color: black; 
+}
+.img1{
+    position: relative;
+    display: inline-block;
+width: 150px;
+height: 150px;
+}
+.principal{
+    position: relative;
+    display: block;
+}
+.form{
+width: 500px;
+height: 100px;  
+}
+.form input{
+    border-radius: 5px;
+width: 400px;
+height: 30px; 
+
+}
+.form textarea{
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+
+}
+.form button{
+ width:100px; 
+ height: 40px;  
+ border: none;
+ background: rgb(10, 163, 168);
+}
+.form button:hover{
+ background: red;   
+}
+footer{
+    bottom: -250px;
+position: relative;
+display: inline;
+width: 100%;
+margin: auto;
+}
+footer a{
+
+}
